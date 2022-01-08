@@ -6,23 +6,31 @@ La base de datos contiene información sobre las ventas de una tienda de inform�
 ```
 {
     producto: "Xiaomi Mi 11",
-    precioUnidad: 389,
+    precioUnidad: 389.35,
     cantidad: 2,
-    fechaVenta: new Date("2016-12-27"),
-    costeUnidad: 234,
+    fechaVenta: new Date("2019-12-27"),
+    costeUnidad: 234.45,
     cliente: "Alex Tintor",
     vendedor: "Gustavo Magistrez",
     categoria: "telefono"
 }
 ```
 producto: alfanumérico con el nombre del artículo vendido.
+
 precioUnidad: número con el precio del artículo vendido.
+
 cantidad: número con la cantidad de artículos vendidos.
+
 fechaVenta: fecha de la venta.
+
 costeUnidad: número con el coste de cada unidad para la empresa.
+
 cliente: alfanumérico con el nombre del comprador.
+
 vendedor: alfanumérico con el nombre del vendedor que atendió al cliente.
+
 categoria: alfanumérico con el nombre de la categoría a la que pertenece el artículo.
+
 
 ## Estructura
 El repositorio tiene la siguiente estructura:
@@ -30,6 +38,7 @@ El repositorio tiene la siguiente estructura:
 >
 >src
 >>aggregateVentas.js
+>>
 >>insertVentas.js
 
 
