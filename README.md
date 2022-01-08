@@ -2,7 +2,7 @@
 Este proyecto contine varios scripts para la base de datos MongoDB. Realizado por Iván Gasent Zarza de 1 DAM.
 
 ## Base de datos
-La base de datos contiene información sobre las ventas de una tienda de informática. Cada documento tiene la siguiente estructura:
+La base de datos contiene información sobre las ventas de una tienda de informática centrada en ventas a individuales en cantidades mayores a la normal. Cada documento tiene la siguiente estructura:
 ```
 {
     producto: "Xiaomi Mi 11",
