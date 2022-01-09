@@ -112,7 +112,7 @@ db.productos.aggregate([{
     $match: {
         $and: [
             { $expr: { $lte: [{ $year: "$fechaVenta" }, 2019] } },
-            { $expr: { $lt: [{ $month: "$fecha_venta" }, 6] } },
+            { $expr: { $lt: [{ $month: "$fechaVenta" }, 6] } },
             { categoria: { $regex: /tel.fono/i } }
         ]
     }
